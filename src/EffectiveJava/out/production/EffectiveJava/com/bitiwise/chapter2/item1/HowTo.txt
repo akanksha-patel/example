@@ -1,0 +1,16 @@
+1- Consider static factory methods instead of constructors
+
+2-A class can provide a public static factory method, which is
+  simply a static method that returns an instance of the class.
+
+3-One advantage of static factory methods is that, unlike constructors, they
+  have names
+
+4-A second advantage of static factory methods is that, unlike constructors,
+  they are not required to create a new object each time they’re invoked.
+
+5-A third advantage of static factory methods is that, unlike constructors,
+  they can return an object of any subtype of their return type
+
+6-A fourth advantage of static factory methods is that they reduce the verbosity
+  of creating parameterized type instances.
